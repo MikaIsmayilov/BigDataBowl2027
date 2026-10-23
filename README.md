@@ -19,11 +19,11 @@ cd BigDataBowl2027
 ## Data
 | File | Description |
 |------|-------------|
-| `games.csv` | Game info |
-| `players.csv` | Player info |
-| `player_play.csv` | Player-level play data |
-| `player_career_successes.csv` | Player career outcomes |
-| `game_tracking_2023.csv` / `_2024` / `_2025` | Game tracking data by season |
-| `combine_results.csv` | Combine results |
-| `combine_tracking.csv` | Combine tracking data |
+| `data/games.csv` | Game info |
+| `data/players.csv` | Player info |
+| `data/player_play.csv` | Player-level play data |
+| `data/player_career_successes.csv` | Player career outcomes |
+| `data/game_tracking_2023.csv` / `_2024` / `_2025` | Game tracking data by season |
+| `data/combine_results.csv` | Combine results |
+| `data/combine_tracking.csv` | Combine tracking data |
 | `Big Data Bowl 2027 Project Options.pdf` | Project options |
