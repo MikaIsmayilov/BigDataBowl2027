@@ -7,19 +7,23 @@ Our entry for the [NFL Big Data Bowl 2027](https://www.kaggle.com/competitions) 
 - Steven Marathias ([@Stevenmarathias](https://github.com/Stevenmarathias))
 
 ## Getting started
-1. Clone the repo
-   ```bash
-   git clone https://github.com/MikaIsmayilov/BigDataBowl2027.git
-   cd BigDataBowl2027
-   ```
-2. Download the competition data from Kaggle into `data/`. This folder is git-ignored because the tracking files are too large to commit.
-   ```bash
-   kaggle competitions download -c <competition-slug> -p data/
-   ```
+The competition data is stored in the repo with [Git LFS](https://git-lfs.com) (about 2.1GB).
 
-## Structure
+```bash
+brew install git-lfs   # one-time
+git lfs install        # one-time
+git clone https://github.com/MikaIsmayilov/BigDataBowl2027.git
+cd BigDataBowl2027
 ```
-data/        # raw Kaggle data (not committed)
-notebooks/   # exploration and analysis
-src/         # reusable code
-```
+
+## Data
+| File | Description |
+|------|-------------|
+| `games.csv` | Game info |
+| `players.csv` | Player info |
+| `player_play.csv` | Player-level play data |
+| `player_career_successes.csv` | Player career outcomes |
+| `game_tracking_2023.csv` / `_2024` / `_2025` | Game tracking data by season |
+| `combine_results.csv` | Combine results |
+| `combine_tracking.csv` | Combine tracking data |
+| `Big Data Bowl 2027 Project Options.pdf` | Project options |

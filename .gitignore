@@ -220,11 +220,7 @@ __marimo__/
 .streamlit/secrets.toml
 
 
-# Big Data Bowl data (large Kaggle files — don't commit)
-data/
-*.csv
-*.parquet
-*.zip
+# Big Data Bowl data is tracked with Git LFS (see .gitattributes)
 
 # OS / editor
 .DS_Store
